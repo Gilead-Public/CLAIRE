@@ -1,0 +1,2335 @@
+﻿<Complex name="Root" type="MethodManager.Data.Dto.MethodDto, MethodManager.Data">
+  <Properties>
+    <Simple name="Name" value="" />
+    <Collection name="Steps">
+      <Properties>
+        <Simple name="Capacity" value="8" />
+      </Properties>
+      <Items>
+        <Complex>
+          <Properties>
+            <Simple name="DeviceId" value="2776287b-aaeb-4fcc-9481-c994542e4ade" />
+            <Simple name="CommandId" value="72f1aa93-92ca-4ab9-8a4b-ffc3b4d00329" />
+            <Simple name="CommandName" value="Set Output" />
+            <Simple name="Enabled" value="True" />
+            <Simple name="EstimateTime" value="0" />
+            <Dictionary name="Parameters">
+              <Items>
+                <Item>
+                  <Simple value="outputName" />
+                  <Simple type="System.String, mscorlib" value="Y005_HEPA1" />
+                </Item>
+                <Item>
+                  <Simple value="stateActive" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+                <Item>
+                  <Simple value="VID" />
+                  <Simple type="System.Guid, mscorlib" value="72f1aa93-92ca-4ab9-8a4b-ffc3b4d00329" />
+                </Item>
+              </Items>
+            </Dictionary>
+          </Properties>
+        </Complex>
+        <Complex>
+          <Properties>
+            <Simple name="DeviceId" value="2776287b-aaeb-4fcc-9481-c994542e4ade" />
+            <Simple name="CommandId" value="72f1aa93-92ca-4ab9-8a4b-ffc3b4d00329" />
+            <Simple name="CommandName" value="Set Output" />
+            <Simple name="Enabled" value="True" />
+            <Simple name="EstimateTime" value="0" />
+            <Dictionary name="Parameters">
+              <Items>
+                <Item>
+                  <Simple value="outputName" />
+                  <Simple type="System.String, mscorlib" value="Y006_HEPA2" />
+                </Item>
+                <Item>
+                  <Simple value="stateActive" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+                <Item>
+                  <Simple value="VID" />
+                  <Simple type="System.Guid, mscorlib" value="72f1aa93-92ca-4ab9-8a4b-ffc3b4d00329" />
+                </Item>
+              </Items>
+            </Dictionary>
+          </Properties>
+        </Complex>
+        <Complex>
+          <Properties>
+            <Simple name="DeviceId" value="05fb9ae8-0bef-44ae-939d-9bcda4238c84" />
+            <Simple name="CommandId" value="d495d744-9ac3-4845-94f2-42e459af7b39" />
+            <Simple name="CommandName" value="String Builder" />
+            <Simple name="Enabled" value="True" />
+            <Simple name="EstimateTime" value="0" />
+            <Dictionary name="Parameters">
+              <Items>
+                <Item>
+                  <Simple value="Expression" />
+                  <Simple type="System.String, mscorlib" value="Day 26 Vicell Blu" />
+                </Item>
+                <Item>
+                  <Simple value="AssignToVariable" />
+                  <Simple type="System.String, mscorlib" value="MethodName" />
+                </Item>
+                <Item>
+                  <Simple value="ClearVariable" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+              </Items>
+            </Dictionary>
+          </Properties>
+        </Complex>
+        <Complex>
+          <Properties>
+            <Simple name="DeviceId" value="05fb9ae8-0bef-44ae-939d-9bcda4238c84" />
+            <Simple name="CommandId" value="4a90f3a3-434f-492a-84b6-c7ef0d34b1e4" />
+            <Simple name="CommandName" value="Run Sub" />
+            <Simple name="Enabled" value="True" />
+            <Simple name="EstimateTime" value="0" />
+            <Dictionary name="Parameters">
+              <Items>
+                <Item>
+                  <Simple value="Filename" />
+                  <Simple type="System.String, mscorlib" value="Base Methods\24 to 96 Sample for ViCell Blu.met" />
+                </Item>
+                <Item>
+                  <Simple value="WaitForExecution" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+                <Item>
+                  <Simple value="InheritWorktable" />
+                  <Simple type="System.Boolean, mscorlib" value="True" />
+                </Item>
+                <Item>
+                  <Simple value="StatusVariable" />
+                  <Simple type="System.String, mscorlib" value="" />
+                </Item>
+                <Item>
+                  <Simple value="MethodLabel" />
+                  <Simple type="System.String, mscorlib" value="" />
+                </Item>
+                <Item>
+                  <Simple value="FilenameVariable" />
+                  <Simple type="System.String, mscorlib" value="" />
+                </Item>
+                <Item>
+                  <Simple value="VID" />
+                  <Simple type="System.Guid, mscorlib" value="4a90f3a3-434f-492a-84b6-c7ef0d34b1e4" />
+                </Item>
+              </Items>
+            </Dictionary>
+          </Properties>
+        </Complex>
+        <Complex>
+          <Properties>
+            <Simple name="DeviceId" value="05fb9ae8-0bef-44ae-939d-9bcda4238c84" />
+            <Simple name="CommandId" value="dd2b1af1-b1b1-4041-a176-6cb8831567b5" />
+            <Simple name="CommandName" value="Show Message" />
+            <Simple name="Enabled" value="True" />
+            <Simple name="EstimateTime" value="0" />
+            <Dictionary name="Parameters">
+              <Items>
+                <Item>
+                  <Simple value="Message" />
+                  <Simple type="System.String, mscorlib" value="Run Completed.&#xD;&#xA;&#xD;&#xA;Please unload the deck and press OK." />
+                </Item>
+                <Item>
+                  <Simple value="AutoCloseTime" />
+                  <Simple type="System.Int32, mscorlib" value="0" />
+                </Item>
+                <Item>
+                  <Simple value="AutoClose" />
+                  <Simple type="System.Boolean, mscorlib" value="False" />
+                </Item>
+                <Item>
+                  <Simple value="ResultsVariable" />
+                  <Simple type="System.String, mscorlib" value="" />
+                </Item>
+                <Item>
+                  <Simple value="MessageVariable" />
+                  <Simple type="System.String, mscorlib" value="" />
+                </Item>
+                <Item>
+                  <Simple value="AutoClearError" />
+                  <Simple type="System.Boolean, mscorlib" value="False" />
+                </Item>
+                <Item>
+                  <Simple value="VID" />
+                  <Simple type="System.Guid, mscorlib" value="dd2b1af1-b1b1-4041-a176-6cb8831567b5" />
+                </Item>
+              </Items>
+            </Dictionary>
+          </Properties>
+        </Complex>
+      </Items>
+    </Collection>
+    <Collection name="WorktableResourceMaps">
+      <Properties>
+        <Simple name="Capacity" value="2" />
+      </Properties>
+      <Items>
+        <Complex type="MethodManager.Core.Domain.MMWorktableResourceMap, MethodManager.Core">
+          <Properties>
+            <Collection name="ResourceStacks" type="System.Collections.Generic.List`1[[MethodManager.Core.Domain.MMLabwareStack, MethodManager.Core]], mscorlib">
+              <Properties>
+                <Simple name="Capacity" value="128" />
+              </Properties>
+              <Items>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="TransferTips_01" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="DDX-96-1250F" />
+                            <Simple name="LabwareId" value="c9792d9f-b5fd-4c35-8b26-c9afde1f204b" />
+                            <Simple name="Category" value="Tipbox" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_01" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="TransferTips_02" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="DDX-96-1250F" />
+                            <Simple name="LabwareId" value="c9792d9f-b5fd-4c35-8b26-c9afde1f204b" />
+                            <Simple name="Category" value="Tipbox" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_02" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="TransferTips_03" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="DDX-96-1250F" />
+                            <Simple name="LabwareId" value="c9792d9f-b5fd-4c35-8b26-c9afde1f204b" />
+                            <Simple name="Category" value="Tipbox" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_03" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="TransferTips_04" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="DDX-96-1250F" />
+                            <Simple name="LabwareId" value="c9792d9f-b5fd-4c35-8b26-c9afde1f204b" />
+                            <Simple name="Category" value="Tipbox" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_04" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_05" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_12" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_07" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_08" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_09" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_10" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_11" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="Re-Rack" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="Re-RackBox2.0" />
+                            <Simple name="LabwareId" value="2ebc2b81-32a9-407a-ac87-168b54eba564" />
+                            <Simple name="Category" value="Tipbox" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_06" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_62" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_20" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_21" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_22" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_23" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_18" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_19" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_01" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_25" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_02" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_26" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_03" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_27" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_04" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_28" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_24" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_45" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_13" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_49" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_14" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_50" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_31" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_15" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_51" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_36" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_32" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_05" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_29" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_06" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_30" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_07" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_37" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_08" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_38" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_44" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_09" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_39" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_10" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_40" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_11" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_41" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_12" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_42" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_16" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_52" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_47" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_43" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="96Dest_01" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="96 ViCell Plate" />
+                            <Simple name="LabwareId" value="e4d8de29-7669-4ffd-8d7f-c9945a9da37b" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_14" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="96Dest_02" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="96 ViCell Plate" />
+                            <Simple name="LabwareId" value="e4d8de29-7669-4ffd-8d7f-c9945a9da37b" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_15" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="96Dest_03" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="96 ViCell Plate" />
+                            <Simple name="LabwareId" value="e4d8de29-7669-4ffd-8d7f-c9945a9da37b" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_16" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="96Dest_04" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="96 ViCell Plate" />
+                            <Simple name="LabwareId" value="e4d8de29-7669-4ffd-8d7f-c9945a9da37b" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_17" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_48" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_53" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_33" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_34" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_35" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_46" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_54" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_13" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_56" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_57" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_58" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_59" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_60" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_61" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_55" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_63" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_64" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_65" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_66" />
+                  </Properties>
+                </Complex>
+              </Items>
+            </Collection>
+            <Simple name="WorktableName" value="Left" />
+            <Simple name="DeviceName" value="Lynx" />
+            <Simple name="IsRuntime" value="False" />
+          </Properties>
+        </Complex>
+        <Complex type="MethodManager.Core.Domain.MMWorktableResourceMap, MethodManager.Core">
+          <Properties>
+            <Collection name="ResourceStacks" type="System.Collections.Generic.List`1[[MethodManager.Core.Domain.MMLabwareStack, MethodManager.Core]], mscorlib">
+              <Properties>
+                <Simple name="Capacity" value="128" />
+              </Properties>
+              <Items>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_54" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_65" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_47" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_48" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_56" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_18" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24SrcLid_14" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_44" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_01" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_25" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_02" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_26" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_03" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_27" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_04" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_28" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_57" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_59" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_05" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_29" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_06" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_30" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_07" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_37" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_08" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_38" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_64" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_63" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_09" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_39" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_10" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_40" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_11" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_41" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_12" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_42" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_53" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24SrcLid_06" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_24" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_58" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24SrcLid_15" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_45" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24SrcLid_13" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_43" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24SrcLid_01" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_19" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_62" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24SrcLid_12" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_36" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_13" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_49" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_14" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_50" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_15" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_51" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24Src_16" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_52" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="96Dest_01" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="96 ViCell Plate" />
+                            <Simple name="LabwareId" value="e4d8de29-7669-4ffd-8d7f-c9945a9da37b" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_14" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="0" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_13" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24SrcLid_07" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_31" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24SrcLid_08" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_32" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24SrcLid_09" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_33" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_55" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="96Dest_02" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="96 ViCell Plate" />
+                            <Simple name="LabwareId" value="e4d8de29-7669-4ffd-8d7f-c9945a9da37b" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_15" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_66" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_60" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24SrcLid_16" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_46" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24SrcLid_10" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_34" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24SrcLid_11" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_35" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="96Dest_03" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="96 ViCell Plate" />
+                            <Simple name="LabwareId" value="e4d8de29-7669-4ffd-8d7f-c9945a9da37b" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_16" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_61" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24SrcLid_02" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_20" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24SrcLid_03" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_21" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24SrcLid_04" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_22" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="24SrcLid_05" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="24 DWP Enzyscreen" />
+                            <Simple name="LabwareId" value="fb542d37-34d4-4a62-a69a-94c11b560798" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_23" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="96Dest_04" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="96 ViCell Plate" />
+                            <Simple name="LabwareId" value="e4d8de29-7669-4ffd-8d7f-c9945a9da37b" />
+                            <Simple name="Category" value="Plate" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_17" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="TransferTips_01" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="DDX-96-1250F" />
+                            <Simple name="LabwareId" value="c9792d9f-b5fd-4c35-8b26-c9afde1f204b" />
+                            <Simple name="Category" value="Tipbox" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_01" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="TransferTips_02" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="DDX-96-1250F" />
+                            <Simple name="LabwareId" value="c9792d9f-b5fd-4c35-8b26-c9afde1f204b" />
+                            <Simple name="Category" value="Tipbox" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_02" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="TransferTips_03" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="DDX-96-1250F" />
+                            <Simple name="LabwareId" value="c9792d9f-b5fd-4c35-8b26-c9afde1f204b" />
+                            <Simple name="Category" value="Tipbox" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_03" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="TransferTips_04" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="DDX-96-1250F" />
+                            <Simple name="LabwareId" value="c9792d9f-b5fd-4c35-8b26-c9afde1f204b" />
+                            <Simple name="Category" value="Tipbox" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_04" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_05" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_12" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_07" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_08" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_09" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_10" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items />
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_11" />
+                  </Properties>
+                </Complex>
+                <Complex>
+                  <Properties>
+                    <Collection name="LabwareStackElems">
+                      <Properties>
+                        <Simple name="Capacity" value="4" />
+                      </Properties>
+                      <Items>
+                        <Complex>
+                          <Properties>
+                            <Simple name="Name" value="Re-Rack" />
+                            <Simple name="BarcodeId" value="" />
+                            <Simple name="LabwareName" value="Re-RackBox2.0" />
+                            <Simple name="LabwareId" value="2ebc2b81-32a9-407a-ac87-168b54eba564" />
+                            <Simple name="Category" value="Tipbox" />
+                          </Properties>
+                        </Complex>
+                      </Items>
+                    </Collection>
+                    <Simple name="LocationName" value="Loc_06" />
+                  </Properties>
+                </Complex>
+              </Items>
+            </Collection>
+            <Simple name="WorktableName" value="Right" />
+            <Simple name="DeviceName" value="Lynx" />
+            <Simple name="IsRuntime" value="False" />
+          </Properties>
+        </Complex>
+      </Items>
+    </Collection>
+    <Simple name="UserPermission" value="True" />
+    <Simple name="SubMethodOnly" value="False" />
+    <Simple name="Description" value="" />
+    <Simple name="PlateIndex" value="-1" />
+    <Simple name="PlateName" value="" />
+    <Simple name="ScheduleID" value="" />
+    <Simple name="SendEmailNotification" value="False" />
+    <Simple name="UseGlobalEmailSettings" value="True" />
+    <Simple name="Sender" value="" />
+    <Simple name="SMTPServer" value="" />
+    <Simple name="SMTPPort" value="587" />
+    <Simple name="SMTPUser" value="" />
+    <Simple name="SMTPPassword" value="" />
+    <Simple name="SMTPEnableSsl" value="True" />
+    <Simple name="NotificationInTestMode" value="False" />
+    <Simple name="NotificationStart" value="False" />
+    <Simple name="NotificationPauseOrError" value="False" />
+    <Simple name="NotificationFinish" value="False" />
+    <Simple name="Recipients" value="" />
+  </Properties>
+</Complex>
