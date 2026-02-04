@@ -1,13 +1,13 @@
-# CLAIRE
+# [CLAIRE](https://github.com/Gilead-Public/CLAIRE/releases/tag/v1.0.0)
 
 **DLP-I516-213**  
-Gilead Life Sciences  
+Gilead Sciences  
 
 ## Overview
 
-**CLAIRE** is an AI-driven image analysis platform designed to support monoclonal cell line identification. It leverages machine learning and advanced imaging techniques to automatically classify cellular content in well-plate images, including single cells, multiple cells, debris, and contaminants.
+[**CLAIRE**](https://github.com/Gilead-Public/CLAIRE/releases/tag/v1.0.0) is an AI-driven image analysis platform designed to support monoclonal cell line identification. It leverages machine learning and advanced imaging techniques to automatically classify cells in well-plate images including single cells, multiple cells, and debris.
 
-The platform tracks cell growth over time to verify monoclonality and analyzes both brightfield and fluorescence images to improve classification accuracy. Based on this analysis, CLAIRE automatically generates a hit-pick list that can be directly ingested by robotic cell-picking systems, significantly streamlining downstream operations.
+The platform verifies monoclonality in both brightfield and fluorescent images to improve classification accuracy and cell colony confluence in brightfield images. Based on this analysis, CLAIRE automatically generates a hitpick list that can be directly used by Lynx LM1800 liquid handling instruments significantly streamlining downstream operations.
 
 ---
 
@@ -41,7 +41,7 @@ The platform tracks cell growth over time to verify monoclonality and analyzes b
 | **GPU** | CPU-only (default if no GPU detected) | NVIDIA GPU (4 GB+ VRAM, CUDA-compatible) |
 
 **Execution (Windows):**  
-Launch `Claire.exe` to open the GUI.
+Launch [`Claire.exe`](https://github.com/Gilead-Public/CLAIRE/releases/tag/v1.0.0) to open the GUI.
 
 ---
 
@@ -65,7 +65,7 @@ Launch `Claire.exe` to open the GUI.
 
 ### Windows
 
-1. Download `Claire.exe`
+1. Download [`Claire.exe`](https://github.com/Gilead-Public/CLAIRE/releases/tag/v1.0.0)
 2. Double-click to launch the GUI
 3. Click **Choose Folder** and select your project directory
 4. Wait for analysis to complete
@@ -114,7 +114,7 @@ Launch `Claire.exe` to open the GUI.
 
 Each well must contain **exactly two images**:
 - Brightfield
-- Fluorescence
+- Fluorescent
 
 ---
 
@@ -151,7 +151,7 @@ Generated outputs include:
 - Analysis results
 - Patch bounding boxes
 - Brightfield images (Day 0 & Day 14)
-- Fluorescence images (Day 0)
+- Fluorescent images (Day 0)
 
 ---
 
@@ -192,5 +192,5 @@ Close other applications to free CPU and RAM.
 
 ---
 
-**Version:** 1.0  
+**Version:** 1.0.0  
 **Last Updated:** February 2, 2026
