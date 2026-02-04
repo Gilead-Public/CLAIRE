@@ -1,13 +1,13 @@
 # CLAIRE
 
 **DLP-I516-213**  
-Gilead Life Sciences  
+Gilead Sciences  
 
 ## Overview
 
-**CLAIRE** is an AI-driven image analysis platform designed to support monoclonal cell line identification. It leverages machine learning and advanced imaging techniques to automatically classify cellular content in well-plate images, including single cells, multiple cells, debris, and contaminants.
+**CLAIRE** is an AI-driven image analysis platform designed to support monoclonal cell line identification. It leverages machine learning and advanced imaging techniques to automatically classify cells in well-plate images, including single cells, multiple cells, and debris.
 
-The platform tracks cell growth over time to verify monoclonality and analyzes both brightfield and fluorescence images to improve classification accuracy. Based on this analysis, CLAIRE automatically generates a hit-pick list that can be directly ingested by robotic cell-picking systems, significantly streamlining downstream operations.
+The platform verifies monoclonality in both brightfield and fluorescent images to improve classification accuracy and quantifies cell colony confluence in brightfield images. Based on this analysis, CLAIRE automatically generates a hitpick list that can be directly used by Lynx LM1800 liquid handling platforms to significantly streamline downstream operations.
 
 ---
 
